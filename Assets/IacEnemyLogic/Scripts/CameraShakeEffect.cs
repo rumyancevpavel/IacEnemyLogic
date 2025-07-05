@@ -7,9 +7,9 @@ namespace IacEnemyLogic
 	{
 		#region Editor
 
-		[SerializeField] private float _shakeDuration = 0.5f; // Duration of the shake effect
-		[SerializeField] private float _shakeAmplitude = 0.5f; // How strong the shake is
-		[SerializeField] private float _shakeFrequency = 1f; // How fast the shake moves
+		[SerializeField] private float _shakeDuration = 0.5f;
+		[SerializeField] private float _shakeAmplitude = 0.5f;
+		[SerializeField] private float _shakeFrequency = 1f;
 
 		#endregion
 
@@ -40,7 +40,6 @@ namespace IacEnemyLogic
 		{
 			_isShaking = true;
 			_shakeTime = 0;
-
 			while (_shakeTime < _shakeDuration)
 			{
 				_shakeTime += Time.deltaTime;
@@ -51,7 +50,6 @@ namespace IacEnemyLogic
 				transform.localPosition = _originalPosition + new Vector3(offsetX, offsetY, 0);
 				yield return null;
 			}
-
 			transform.localPosition = _originalPosition;
 			_isShaking = false;
 		}

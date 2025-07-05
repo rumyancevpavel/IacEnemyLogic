@@ -5,6 +5,7 @@ namespace IacEnemyLogic
 	public class DamageReceiver : MonoBehaviour
 	{
 		#region Statics
+		
 		private static int GetHitAnimationParam = Animator.StringToHash("GetHit");
 		#endregion
 
