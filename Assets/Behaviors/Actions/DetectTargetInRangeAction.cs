@@ -17,6 +17,7 @@ public partial class DetectTargetInRangeAction : Action
 	protected override Status OnUpdate()
 	{
 		Target.Value = DetectorScript.Value.DetectTarget();
+		Debug.Log($"DetectTargetInRangeAction: {Target.Value}");
 		return Target.Value == null ? Status.Failure : Status.Success;
 	}
 }
