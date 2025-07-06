@@ -20,15 +20,18 @@ namespace IacEnemyLogic
 
 		#region Methods
 
-		public bool DetectTargets(out GameObject detectedTarget)
+		public GameObject DetectTarget()
 		{
 			var colliders = Physics.OverlapSphere(transform.position, _detectionRadius, _targetMaskMask);
 			if (colliders.Length > 0)
 			{
 				LastTarget = colliders[0].gameObject;
 			}
-			detectedTarget = LastTarget;
-			return LastTarget != null;
+			else
+			{
+				LastTarget = null;
+			}
+			return LastTarget;
 		}
 
 		private void OnDrawGizmos()
