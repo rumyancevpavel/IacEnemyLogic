@@ -377,6 +377,11 @@ PrefabInstance:
         Assembly-CSharp]]'
       objectReference: {fileID: 0}
     - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
+      propertyPath: 'managedReferences[1483540404143129283]'
+      value: 'Unity.Behavior Unity.Behavior.BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+        UnityEngine.CoreModule]], mscorlib]]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
       propertyPath: managedReferences[1483540404143128780].Name
       value: PatrolingWaypoints
       objectReference: {fileID: 0}
@@ -385,8 +390,12 @@ PrefabInstance:
       value: Target In Range Detector Script
       objectReference: {fileID: 0}
     - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
+      propertyPath: managedReferences[1483540404143129283].Name
+      value: PatrolPoints
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
       propertyPath: m_BlackboardVariableOverridesList.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
       propertyPath: managedReferences[1483540381881073757].m_Value
@@ -406,7 +415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
       propertyPath: 'm_BlackboardVariableOverridesList.Array.data[2]'
-      value: 1483540404143128780
+      value: 1483540404143129283
       objectReference: {fileID: 0}
     - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
       propertyPath: managedReferences[1483540404143128780].GUID.m_Value0
@@ -425,7 +434,19 @@ PrefabInstance:
       value: 11637382583300283247
       objectReference: {fileID: 0}
     - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
+      propertyPath: managedReferences[1483540404143129283].GUID.m_Value0
+      value: 2192379484647434547
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
+      propertyPath: managedReferences[1483540404143129283].GUID.m_Value1
+      value: 8610906677993473390
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
       propertyPath: managedReferences[1483540404143128780].m_Value.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
+      propertyPath: managedReferences[1483540404143129283].m_Value.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
@@ -438,6 +459,18 @@ PrefabInstance:
       objectReference: {fileID: 1892703761}
     - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
       propertyPath: 'managedReferences[1483540404143128780].m_Value.Array.data[2]'
+      value: 
+      objectReference: {fileID: 506962121}
+    - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
+      propertyPath: 'managedReferences[1483540404143129283].m_Value.Array.data[0]'
+      value: 
+      objectReference: {fileID: 126117480}
+    - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
+      propertyPath: 'managedReferences[1483540404143129283].m_Value.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1892703761}
+    - target: {fileID: 8927993165342399088, guid: 97332fca20583467ea274c43ab3cd801, type: 3}
+      propertyPath: 'managedReferences[1483540404143129283].m_Value.Array.data[2]'
       value: 
       objectReference: {fileID: 506962121}
     m_RemovedComponents: []
