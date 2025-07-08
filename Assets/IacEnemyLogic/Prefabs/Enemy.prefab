@@ -6990,7 +6990,6 @@ GameObject:
   - component: {fileID: 1958360341865176041}
   - component: {fileID: 3746617270444165845}
   - component: {fileID: 7675374446824845198}
-  - component: {fileID: 8927993165342399088}
   - component: {fileID: 8095170266354365804}
   m_Layer: 0
   m_Name: Enemy
@@ -7099,43 +7098,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetInRangeDetector: {fileID: 3746617270444165845}
---- !u!114 &8927993165342399088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7576330730513405905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Graph: {fileID: -1672113993052461964, guid: 233623562b8a84c01a7f8ec862023533, type: 2}
-  m_BlackboardVariableOverridesList:
-  - rid: 1483540381881073757
-  - rid: 1483540381881073853
-  m_IsInitialised: 0
-  m_IsStarted: 0
-  references:
-    version: 2
-    RefIds:
-    - rid: 1483540381881073757
-      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 1
-          m_Value1: 0
-        Name: Self
-        m_Value: {fileID: 7576330730513405905}
-    - rid: 1483540381881073853
-      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 4266711028536991210
-          m_Value1: 9643321124215075917
-        Name: Target
-        m_Value: {fileID: 0}
 --- !u!114 &8095170266354365804
 MonoBehaviour:
   m_ObjectHideFlags: 0
